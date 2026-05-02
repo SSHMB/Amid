@@ -6,6 +6,11 @@ const App = () => {
       <h1>safiya</h1>
       <h1>Shamsiddin</h1>
       <h1>Bilol</h1>
+      <h1>mirafzal</h1> 
+
+
+
+      <h1>emirhan jonka</h1>
     </div>
   )
 }
