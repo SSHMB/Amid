@@ -1,11 +1,9 @@
 import React from 'react'
-import Header from './components/Header'
-import HeroSection from './components/HeroSection/HeroSection'
-import Header from './Components/Header'
+import Header from './Header'
+import HeroSection from './Components/HeroSection/HeroSection'
 import Banner from './Components/Banner'
 import Public from './Components/Public'
-import Navbar from './components/Navbar'
-
+import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
@@ -19,5 +17,7 @@ const App = () => {
     </div>
   )
 }
+
+export default App
 
 
