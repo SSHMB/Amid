@@ -1,0 +1,107 @@
+.hero {
+  background: #eaf3f2;
+  padding: 60px;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.badge {
+  background: #ffeae0;
+  color: #ff7a00;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.primary-btn {
+  background: #ff7a00;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: none;
+  color: #ff7a00;
+  cursor: pointer;
+}
+
+.hero-image {
+  position: relative;
+  margin-top: 40px;
+}
+
+.main-img {
+  width: 250px;
+}
+
+.floating-card {
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 40px);
+  gap: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.yellow {
+  background: #ffd54f;
+}
+
+.green {
+  background: #66bb6a;
+}
+
+.blue {
+  background: #42a5f5;
+}
+
+.orange {
+  background: #ff8a65;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  opacity: 0.7;
+  font-weight: 600;
+}
