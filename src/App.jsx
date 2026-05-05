@@ -4,6 +4,8 @@ import HeroSection from './components/HeroSection/HeroSection'
 import Header from './Components/Header'
 import Banner from './Components/Banner'
 import Public from './Components/Public'
+import Navbar from './components/Navbar'
+
 
 const App = () => {
   return (
@@ -11,9 +13,11 @@ const App = () => {
       <Header />
       <HeroSection />
       <Banner />
+      <Navbar />
+
       <Public />
     </div>
   )
 }
 
-export default App
+
